@@ -11,6 +11,7 @@ ismini değişmediyseniz, sadece database'e ait password ve username'i (applicat
 Son olarak http://localhost:8080/swagger-ui/index.html adresine gittiğinizde uygulamayı denemek için login endpointinden giriş yapmanız gerekmektedir. 
 Eğer scriptler ile user data'sını yüklediyseniz şifre, rol ve kullanıcı isimleri şunlardır:
 kullanıcı adı: mehmet --- şifre: 123 --- rol:customer
+
 kullanıcı adı: manager --- şifre: 123 --- rol:manager
 
 Giriş yapılmazsa veya rolün uygun olmadığı bir endpointe istek atılırsa 403 kodu dönmektedir.
